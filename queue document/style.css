@@ -1,0 +1,50 @@
+
+body{
+    margin: 0;
+}
+.Parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.Parent .cader{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgb(11, 184, 11);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Parent .cader button{
+    width: 150px;
+    border: none;
+    outline: none;
+    background-color: beige;
+    color: black;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+    cursor:-moz-zoom-out;
+}
+.Parent .cader button:active{
+    background-color: white;
+}
+.Parent .cader input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color:gainsboro;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
+
+.Parent .cader p{
+    color: bisque;
+    font-size: 1.2em;
+    text-shadow:gray 0 0 3px;
+}
